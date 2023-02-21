@@ -1,5 +1,5 @@
 import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import FileUpload from "./components/FileUpload";
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -20,7 +20,6 @@ function App() {
     };
     getData();
   }, []);
-
 
   return (
     <div className="App">
